@@ -516,7 +516,7 @@ const SmartPlanner = () => {
                         <p>
                             Add tasks, set priority, choose categories, track
                             due dates, filter your work, import/export data, and
-                            keep everything saved in your browser.
+                            keep everything saved in your browser...
                         </p>
                     </div>
 
