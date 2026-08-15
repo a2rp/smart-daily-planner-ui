@@ -2,6 +2,8 @@
 
 A clean and modern React-based daily planner for organizing tasks, tracking progress, and managing daily productivity with a responsive interface and local storage support.
 
+![Smart Daily Planner](preview.png)
+
 ## ✨ Features
 
 - Create, edit and delete tasks
@@ -42,6 +44,8 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Developed By
 
 **Ashish Ranjan**
+
+Full-Stack Web Developer
 
 🌐 Portfolio  
 https://www.ashishranjan.net
