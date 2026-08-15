@@ -1,0 +1,32 @@
+export const starterTasks = [
+    {
+        id: "task-001",
+        title: "Build planner layout",
+        notes: "Create hero, stats, form, filters, and task list.",
+        priority: "High",
+        status: "Pending",
+        category: "Coding",
+        dueDate: "2026-05-26",
+        createdAt: new Date().toISOString(),
+    },
+    {
+        id: "task-002",
+        title: "Push project to GitHub",
+        notes: "Add topics: website-apps, single-page, reactjs, vite, styled-components.",
+        priority: "Medium",
+        status: "Pending",
+        category: "GitHub",
+        dueDate: "2026-05-27",
+        createdAt: new Date().toISOString(),
+    },
+    {
+        id: "task-003",
+        title: "Test localStorage data",
+        notes: "Refresh page and confirm tasks, filters, and theme are saved.",
+        priority: "Medium",
+        status: "Done",
+        category: "Testing",
+        dueDate: "2026-05-26",
+        createdAt: new Date().toISOString(),
+    },
+];

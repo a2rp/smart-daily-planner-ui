@@ -1,170 +1,74 @@
 # Smart Daily Planner UI
 
-A modern productivity planner built using React, Vite, and styled-components.
+A clean and modern React-based daily planner for organizing tasks, tracking progress, and managing daily productivity with a responsive interface and local storage support.
 
-This project helps manage daily tasks with categories, priorities, filters, theme switching, import/export support, and localStorage persistence.
+## ✨ Features
 
----
-
-![alt text](preview.png)
-
----
-
-## Features
-
-- Add, edit, delete tasks
+- Create, edit and delete tasks
 - Mark tasks as completed
-- Priority management
-- Category management
-- Due date support
-- Search tasks instantly
-- Filter by:
-    - Priority
-    - Status
-    - Category
-- Dark / Light theme toggle
-- Data saved using localStorage
-- Import tasks from JSON
-- Export tasks to JSON
-- Responsive layout
-- SweetAlert2 notifications and confirmations
-- Premium glassmorphism inspired UI
+- Search and filter tasks
+- Progress statistics dashboard
+- Import and export tasks (JSON)
+- Dark and light theme
+- Local Storage persistence
+- Fully responsive design
 
----
+## 🛠️ Tech Stack
 
-## Tech Stack
-
-- React 18
+- React
 - Vite
 - styled-components
-- react-icons
 - SweetAlert2
+- React Icons
 
----
-
-## Installation
+## 📦 Installation
 
 ```bash
+git clone https://github.com/a2rp/smart-daily-planner-ui.git
+
+cd smart-daily-planner-ui
+
 npm install
-```
 
----
-
-## Run Development Server
-
-```bash
 npm run dev
 ```
 
----
+## 📄 License
 
-## Build Project
-
-```bash
-npm run build
-```
+This project is licensed under the MIT License.
 
 ---
 
-## Preview Production Build
+## 👨‍💻 Developed By
 
-```bash
-npm run preview
-```
+**Ashish Ranjan**
 
----
+🌐 Portfolio  
+https://www.ashishranjan.net
 
-## Deploy To GitHub Pages
+💻 GitHub  
+https://github.com/a2rp
 
-Install gh-pages:
+💼 LinkedIn  
+https://www.linkedin.com/in/aashishranjan
 
-```bash
-npm install gh-pages --save-dev
-```
+🖊️ CodePen  
+https://codepen.io/ash1198
 
-Deploy:
+📺 YouTube  
+https://www.youtube.com/@ashishranjan-ashz
 
-```bash
-npm run deploy
-```
+📘 Facebook  
+https://www.facebook.com/theash.ashish/
 
----
+❤️ Support  
+https://a2rp-donation-page.netlify.app/
 
-## Local Storage
+☕ Buy Me a Coffee  
+https://buymeacoffee.com/a2rp
 
-The planner stores tasks and theme preferences in browser localStorage.
+🎁 Patreon  
+https://patreon.com/a2rp
 
-Keys used:
-
-```txt
-a2rp_smart_daily_planner_tasks
-a2rp_smart_daily_planner_theme
-```
-
----
-
-## Theme Support
-
-Supports:
-
-- Dark Theme
-- Light Theme
-
-Theme preference is automatically saved.
-
----
-
-## Import / Export
-
-### Export
-
-Tasks can be exported as:
-
-```txt
-smart-daily-planner-tasks.json
-```
-
-### Import
-
-Previously exported task JSON files can be imported back into the planner.
-
----
-
-## Responsive Design
-
-The UI is fully responsive and optimized for:
-
-- Desktop
-- Tablet
-- Mobile devices
-
----
-
-## GitHub Topics
-
-Suggested repository topics:
-
-```txt
-website-apps
-single-page
-reactjs
-vite
-styled-components
-productivity
-planner
-task-manager
-localstorage
-javascript
-frontend
-responsive-ui
-```
-
----
-
-## Follow me:
-
-- GitHub: https://github.com/a2rp
-- Portfolio: https://www.ashishranjan.net
-- LinkedIn: https://www.linkedin.com/in/aashishranjan
-- Facebook: https://www.facebook.com/theash.ashish/
-- Youtube: https://www.youtube.com/@ashishranjan-ashz
+📧 Email  
+ash.ranjan09@gmail.com
