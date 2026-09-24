@@ -36,7 +36,6 @@ export const Styled = {
         }
 
         button:hover {
-            transform: translateY(-5px);
 
             background: rgba(18, 24, 31, 0.98);
 
@@ -48,7 +47,6 @@ export const Styled = {
         }
 
         button:active {
-            transform: translateY(-2px) scale(0.96);
         }
 
         button svg {
@@ -56,12 +54,10 @@ export const Styled = {
             height: 20px;
 
             transition:
-                transform 0.2s ease,
                 color 0.2s ease;
         }
 
         button:hover svg {
-            transform: translateY(-2px);
             color: var(--shell-secondary);
         }
 

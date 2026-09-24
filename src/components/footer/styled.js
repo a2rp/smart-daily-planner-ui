@@ -140,5 +140,37 @@ export const Styled = {
                 gap: 8px;
             }
         }
+        .footerLinks {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: flex-end;
+            gap: 8px;
+        }
+
+        .footerLinks a {
+            width: 40px;
+            min-height: 40px;
+            display: grid;
+            place-items: center;
+            border: 1px solid var(--shell-border);
+            border-radius: 10px;
+            color: var(--shell-text);
+            font-size: 0.7rem;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .footerLinks a:hover {
+            padding-left: 0;
+            color: var(--shell-primary);
+            border-color: rgba(0, 212, 255, 0.32);
+            box-shadow: 0 0 16px rgba(0, 212, 255, 0.14);
+        }
+
+        .footerLinks a > svg {
+            width: 17px;
+            height: 17px;
+            color: var(--shell-secondary);
+        }
     `,
 };

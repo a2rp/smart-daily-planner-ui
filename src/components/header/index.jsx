@@ -16,7 +16,7 @@ const Header = ({ theme, onToggleTheme, onExport, onImport }) => {
                         })
                     }
                 >
-                    <span className="brandMark">SD</span>
+                    <span className="brandMark"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="" /></span>
 
                     <span className="brandText">
                         <strong>Smart Daily Planner</strong>

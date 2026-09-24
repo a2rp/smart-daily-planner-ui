@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const Styled = {
     Wrapper: styled.header`
-        position: sticky;
+        position: fixed;
+        left: 0;
+        right: 0;
         top: 0;
         z-index: 1000;
         width: 100%;
@@ -50,6 +52,12 @@ export const Styled = {
             font-size: 0.92rem;
             font-weight: 700;
             letter-spacing: 0.08em;
+
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+            }
         }
 
         .brandText {
@@ -123,7 +131,6 @@ export const Styled = {
             font-size: 0.68rem;
             cursor: pointer;
             transition:
-                transform 0.2s ease,
                 border-color 0.2s ease,
                 background 0.2s ease,
                 color 0.2s ease;
@@ -131,7 +138,6 @@ export const Styled = {
 
         .actionButton:hover,
         .themeButton:hover {
-            transform: translateY(-2px);
             border-color: rgba(0, 212, 255, 0.38);
             background: #111720;
         }

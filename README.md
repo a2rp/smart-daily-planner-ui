@@ -1,103 +1,38 @@
 # Smart Daily Planner UI
 
-A clean and modern React-based daily planner for organizing tasks, tracking progress, and managing daily productivity with a responsive interface and local storage support.
+A local-first React and Vite productivity workspace for creating tasks, tracking progress, filtering priorities, and keeping daily work organized in the browser.
 
-![Smart Daily Planner](preview.png)
+![Smart Daily Planner preview](screenshot.png)
 
-## ✨ Features
+## Features
 
-- Create, edit and delete tasks
-- Mark tasks as completed
-- Search and filter tasks
-- Progress statistics dashboard
-- Import and export tasks (JSON)
-- Dark and light theme
-- Local Storage persistence
-- Fully responsive design
+- Create, edit, complete, and delete tasks
+- Search and filter by priority, status, and category
+- Progress statistics and completion tracking
+- LocalStorage persistence with JSON import and export
+- Dark and light themes with responsive layout
+- Fixed branded header, icon-only footer links, and go-to-top control
 
-## 🛠️ Tech Stack
+## Tech stack
 
-- React
-- Vite
+- React and Vite
 - styled-components
-- SweetAlert2
-- React Icons
+- React Icons and SweetAlert2
+- LocalStorage for task persistence
 
-## 📦 Installation
+## Run locally
 
 ```bash
-git clone https://github.com/a2rp/smart-daily-planner-ui.git
-
-cd smart-daily-planner-ui
-
 npm install
-
 npm run dev
 ```
 
-## 📄 License
+## Deployment
 
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Developed By
-
-**Ashish Ranjan**
-
-Full-Stack Web Developer
-
-🌐 Portfolio  
-https://www.ashishranjan.net
-
-💻 GitHub  
-https://github.com/a2rp
-
-💼 LinkedIn  
-https://www.linkedin.com/in/aashishranjan
-
-🖊️ CodePen  
-https://codepen.io/ash1198
-
-📺 YouTube  
-https://www.youtube.com/@ashishranjan-ashz
-
-📘 Facebook  
-https://www.facebook.com/theash.ashish/
-
-❤️ Support  
-https://a2rp-donation-page.netlify.app/
-
-☕ Buy Me a Coffee  
-https://buymeacoffee.com/a2rp
-
-🎁 Patreon  
-https://patreon.com/a2rp
-
-📧 Email  
-ash.ranjan09@gmail.com
+Live app: [https://a2rp.github.io/smart-daily-planner-ui/](https://a2rp.github.io/smart-daily-planner-ui/)
 
 ## Links
 
-- Portfolio: [https://www.ashishranjan.net](https://www.ashishranjan.net)
-- GitHub: [https://github.com/a2rp](https://github.com/a2rp)
-- CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
-- LinkedIn: [https://www.linkedin.com/in/aashishranjan](https://www.linkedin.com/in/aashishranjan)
-- Facebook: [https://www.facebook.com/theash.ashish/](https://www.facebook.com/theash.ashish/)
-- YouTube: [https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
-- Email: [ash.ranjan09@gmail.com](mailto:ash.ranjan09@gmail.com)
-
-## Support
-
-- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
-- Buy Me A Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
-- Patreon: [https://patreon.com/a2rp](https://patreon.com/a2rp)
-<!-- Project links -->
-
-## Links
-
-- Live: [https://a2rp.github.io/smart-daily-planner-ui/](https://a2rp.github.io/smart-daily-planner-ui/)
-- Repository: [https://github.com/a2rp/smart-daily-planner-ui](https://github.com/a2rp/smart-daily-planner-ui)
 - Portfolio: [https://www.ashishranjan.net/](https://www.ashishranjan.net/)
 - GitHub: [https://github.com/a2rp](https://github.com/a2rp)
 - CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
@@ -110,4 +45,4 @@ ash.ranjan09@gmail.com
 
 - Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
 - Buy Me a Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
-- Patreon: [https://www.patreon.com/a2rp](https://www.patreon.com/a2rp)
+- Patreon: [https://patreon.com/a2rp](https://patreon.com/a2rp)

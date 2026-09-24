@@ -33,11 +33,11 @@ export const Styled = {
     Container: styled.main`
         width: min(1440px, calc(100% - 48px));
         margin: 0 auto;
-        padding: 42px 0 90px;
+        padding: 124px 0 90px;
 
         @media (max-width: 700px) {
             width: calc(100% - 28px);
-            padding-top: 24px;
+            padding-top: 108px;
             padding-bottom: 64px;
         }
     `,
